@@ -1,0 +1,28 @@
+#include <stdio.h>
+int main(){
+
+    int n;
+    scanf("%d", &n);
+    int array[n];
+    for (int i = 0; i < n; i++)
+    {
+        scanf("%d", &array[i]);
+        
+    }
+    int sum;
+    for (int i = n-1; i >= 0; i--)
+    {
+        sum+=array[i];
+
+    }
+            printf("%d ", sum);
+    
+    
+
+   
+    
+
+
+
+    return 0;
+}
